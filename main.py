@@ -46,8 +46,6 @@ def mkdir_p(path):
         else:
             raise
 
-print(folder_path)
-input('dsadsa')
 # Some helpfull variables to deal with the scraping loop
 counter = 0
 not_supported = 0
