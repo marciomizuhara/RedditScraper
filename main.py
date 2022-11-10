@@ -53,7 +53,7 @@ not_supported = 0
 
 # Main scraping code
 try:
-    for post in subreddit.new(limit=5):
+    for post in subreddit.new(limit=5):  # set how many posts you want to scrap in the 'limit' parameter
         # A helper variable to avoid messing up with filenames
         setter = ''
 
